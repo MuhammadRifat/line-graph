@@ -127,8 +127,8 @@ var LineChart = function (options) {
                         context.bezierCurveTo(x, y/2, x, y, x, y);
                         // context.lineTo(x, y);
                     } else{
-                        context.lineTo(x, y);
-                        // context.bezierCurveTo(x, x/5, x, x/5, x, y);
+                        // context.lineTo(x, y);
+                        context.bezierCurveTo(x, x/5, x, x/5, x, y);
                     }
                     
                 }
